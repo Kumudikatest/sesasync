@@ -1,0 +1,127 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "ca25f941-ac9d-4e62-b6e5-a264781936cc": {
+        "id": "ca25f941-ac9d-4e62-b6e5-a264781936cc",
+        "parent": null,
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "lambda.js",
+        "cursor": {
+          "lineNumber": 20,
+          "column": 27
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigeuCentral1californiapost",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "ca25f941-ac9d-4e62-b6e5-a264781936cc"
+    ],
+    "currentFileId": "ca25f941-ac9d-4e62-b6e5-a264781936cc",
+    "resources": {
+      "apigeuCentral1californiapost": {
+        "name": "apigeuCentral1californiapost",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "eu-central-1",
+          "apiMode": 1,
+          "apiName": "california",
+          "apiId": "p8eirhyd7k",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "vi6xlt1lei",
+          "existingResources": {
+            "/check/cal": "batevx",
+            "/check": "pcpvxf",
+            "/": "vi6xlt1lei"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/",
+          "resourceName": "",
+          "resourceId": "vi6xlt1lei",
+          "restMethod": "POST",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "test",
+          "stageDeploymentId": "l0wxn8",
+          "mode": 1
+        }
+      },
+      "ses-kumudika@adroitlogic.com": {
+        "name": "ses-kumudika@adroitlogic.com",
+        "type": "SES",
+        "config": {
+          "selectedIdentity": "kumudika@adroitlogic.com",
+          "projectRegion": "eu-central-1",
+          "params": {
+            "to": "hirudinee@adroitlogic.com",
+            "cc": "",
+            "bcc": "",
+            "subject": "Test",
+            "body": {
+              "text": "",
+              "html": ""
+            }
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.176.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "sesasync",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "eu-central-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1582788591852
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "sesasync",
+      "url": "https://github.com/Kumudikatest/sesasync"
+    }
+  }
+}
