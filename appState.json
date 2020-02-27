@@ -50,7 +50,7 @@
           "selectedIdentity": "kumudika@adroitlogic.com",
           "projectRegion": "eu-central-1",
           "params": {
-            "to": "hirudinee@adroitlogic.com",
+            "to": "kumudika@adroitlogic.com",
             "cc": "kumudika@adroitlogic.com",
             "bcc": "kumudika@adroitlogic.com",
             "subject": "Test subject",
@@ -123,7 +123,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1582807309566
+    "lastSave": 1582807498093
   },
   "VCS_STATE": {
     "provider": "GitHub",

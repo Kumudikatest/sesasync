@@ -6,7 +6,7 @@ exports.handler = async (event) => {
         let data = await ses.sendEmail({
             Source: "kumudika@adroitlogic.com",
             Destination: {
-                ToAddresses: ['hirudinee@adroitlogic.com'],
+                ToAddresses: ['kumudika@adroitlogic.com'],
                 CcAddresses: ['kumudika@adroitlogic.com'],
                 BccAddresses: ['kumudika@adroitlogic.com']
             },
