@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "k2lambda.js",
         "cursor": {
-          "lineNumber": 12,
-          "column": 27
+          "lineNumber": 1,
+          "column": 1
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -50,13 +50,12 @@
           "selectedIdentity": "kumudika@adroitlogic.com",
           "projectRegion": "eu-central-1",
           "params": {
-            "to": "kumudika@adroitlogic.com",
-            "cc": "",
-            "bcc": "",
-            "subject": "Test",
+            "to": "hirudinee@adroitlogic.com",
+            "cc": "kumudika@adroitlogic.com",
+            "bcc": "kumudika@adroitlogic.com",
+            "subject": "Test subject",
             "body": {
-              "text": "",
-              "html": ""
+              "text": "Test body"
             }
           }
         }
@@ -124,7 +123,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1582806155073
+    "lastSave": 1582807309566
   },
   "VCS_STATE": {
     "provider": "GitHub",
