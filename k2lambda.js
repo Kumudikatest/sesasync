@@ -13,7 +13,9 @@ exports.handler = async (event) => {
                     Data: "Test"
                 },
                 Body: {
-                    Text: {}
+                    Text: {
+                        Data: ""
+                    }
                 }
             }
         }).promise();
@@ -21,6 +23,7 @@ exports.handler = async (event) => {
 
     } catch (err) {
         // error handling goes here
+        console.log(err);
     };
 
     return { "message": "Successfully executed" };

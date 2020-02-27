@@ -1,17 +1,17 @@
 {
   "EDITOR_STATE": {
     "allProjectFiles": {
-      "ca25f941-ac9d-4e62-b6e5-a264781936cc": {
-        "id": "ca25f941-ac9d-4e62-b6e5-a264781936cc",
+      "f984ffe8-e0b2-4654-9b65-6ac9b8fbe98b": {
+        "id": "f984ffe8-e0b2-4654-9b65-6ac9b8fbe98b",
         "parent": null,
-        "name": "lambda.js",
+        "name": "k2lambda.js",
         "type": "JS_LAMBDA",
         "isDirectory": false,
         "children": [],
         "isRemovable": true,
-        "filePath": "lambda.js",
+        "filePath": "k2lambda.js",
         "cursor": {
-          "lineNumber": 20,
+          "lineNumber": 12,
           "column": 27
         },
         "config": {
@@ -23,19 +23,46 @@
         },
         "triggers": [
           {
-            "resourceName": "apigeuCentral1californiapost",
+            "resourceName": "apigeuCentral1californiacheckcalpost",
             "config": {}
           }
-        ]
+        ],
+        "testCases": {
+          "4cddda52-0b77-45a8-a9e1-182d4cfd55ab": {
+            "id": "4cddda52-0b77-45a8-a9e1-182d4cfd55ab",
+            "name": "Test event",
+            "functionId": "f984ffe8-e0b2-4654-9b65-6ac9b8fbe98b",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
       }
     },
     "openFiles": [
-      "ca25f941-ac9d-4e62-b6e5-a264781936cc"
+      "f984ffe8-e0b2-4654-9b65-6ac9b8fbe98b"
     ],
-    "currentFileId": "ca25f941-ac9d-4e62-b6e5-a264781936cc",
+    "currentFileId": "f984ffe8-e0b2-4654-9b65-6ac9b8fbe98b",
     "resources": {
-      "apigeuCentral1californiapost": {
-        "name": "apigeuCentral1californiapost",
+      "ses-kumudika@adroitlogic.com": {
+        "name": "ses-kumudika@adroitlogic.com",
+        "type": "SES",
+        "config": {
+          "selectedIdentity": "kumudika@adroitlogic.com",
+          "projectRegion": "eu-central-1",
+          "params": {
+            "to": "kumudika@adroitlogic.com",
+            "cc": "",
+            "bcc": "",
+            "subject": "Test",
+            "body": {
+              "text": "",
+              "html": ""
+            }
+          }
+        }
+      },
+      "apigeuCentral1californiacheckcalpost": {
+        "name": "apigeuCentral1californiacheckcalpost",
         "type": "API_GATEWAY",
         "config": {
           "selectedRegion": "eu-central-1",
@@ -50,34 +77,16 @@
             "/": "vi6xlt1lei"
           },
           "resourceMode": 1,
-          "resourcePath": "/",
-          "resourceName": "",
-          "resourceId": "vi6xlt1lei",
+          "resourcePath": "/check/cal",
+          "resourceName": "check/cal",
+          "resourceId": "batevx",
           "restMethod": "POST",
           "proxyIntegration": false,
           "enableCORS": false,
           "stageMode": 1,
           "stageName": "test",
-          "stageDeploymentId": "l0wxn8",
+          "stageDeploymentId": "0f51je",
           "mode": 1
-        }
-      },
-      "ses-kumudika@adroitlogic.com": {
-        "name": "ses-kumudika@adroitlogic.com",
-        "type": "SES",
-        "config": {
-          "selectedIdentity": "kumudika@adroitlogic.com",
-          "projectRegion": "eu-central-1",
-          "params": {
-            "to": "hirudinee@adroitlogic.com",
-            "cc": "",
-            "bcc": "",
-            "subject": "Test",
-            "body": {
-              "text": "",
-              "html": ""
-            }
-          }
         }
       }
     },
@@ -115,7 +124,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1582788591852
+    "lastSave": 1582806155073
   },
   "VCS_STATE": {
     "provider": "GitHub",
